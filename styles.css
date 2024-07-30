@@ -10,7 +10,8 @@ img {
     display: block;
     /* margin-left: auto;
     margin-right: auto; */
-    max-width: 400px;
+    width: 400px;
+    max-width: 100%;
     height: fit-content;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -41,18 +42,18 @@ span.contact {
       flex-direction: column;
       
     }
-    .train{
+    /* .train{
         margin-top: 30px;
-    }
+    } */
   }
 
-.train {
+/* .train {
     width: 190px;
     /* align-self: flex-end    ; */
     margin-left: 100px;
     margin-top: 10px;
 
-}
+} */
 
 .short {
     width: 10px;
