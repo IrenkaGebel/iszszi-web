@@ -1,0 +1,78 @@
+
+.about {
+    max-width: 492px;
+    margin: 10px;
+    
+    /* padding: 5px; */
+    /* background-color: blanchedalmond; */
+}
+img {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    max-width: 400px;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+    /* padding: 40px; */
+}
+.studio {
+    font-style: italic;
+}
+body {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: hsla(0, 0%, 100%, 0.489);
+
+    /* flex-direction: column-reverse; */
+   
+   
+}
+span.contact {
+    color: hwb(118 49% 20%);
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+      /* background-color: lightblue; */
+      /* flex-direction: column-reverse; */
+      flex-direction: column;
+      
+    }
+    .train{
+        margin-top: 30px;
+    }
+  }
+
+.train {
+    width: 190px;
+    /* align-self: flex-end    ; */
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+
+.short {
+    width: 10px;
+}
+.longer {
+    width: 190px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-size: 40px; */
+    font-style: italic;
+}
+
+a:before {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-style: normal;
+    font-size: 16px;
+    content: '🔗 '
+}
+
